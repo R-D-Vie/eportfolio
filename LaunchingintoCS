@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>About Me</title>
+		<title>Launching into CS</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -44,8 +44,8 @@
 				<!-- Banner -->
 					<section id="banner">
 						<div class="inner">
-							<h2>About Me</h2>
-							<p>My background and practical objectives for this course</p>
+							<h2>Launching into Computer Science</h2>
+							<p>Learning progress throughout this module</p>
 						</div>
 					</section>
 
@@ -57,9 +57,11 @@
 								<div class="inner">
 									<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
 									<div class="content">
-										<h2 class="major">Magna arcu feugiat</h2>
-										<p>Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus.</p>
-										<a href="#" class="special">Learn more</a>
+										<h2 class="major">Unit 1</h2>
+										<p>In this unit, we began discussing computer science as a profession and the challenges this poses, such as handling data responsibly (in line with GDPR guidelines), securely and effectively. One of the key topics here is ensuring organisational information security, normally by an IT policy. My research led me to understand that the main challenges here are managing stakeholder perceptions and expectations of any implemented policies and understanding the complexities and interdependenceies of organisational information.</p>
+										<p>I recommend the following two articles on this topic:</p>
+										<li><a href="https://www.sciencedirect.com/science/article/abs/pii/S0268401218303451">Samonas, S., Dhillon, G., & Almusharraf, A. (2020). Stakeholder perceptions of information security policy: Analyzing personal constructs. International Journal of Information Management, 50.</a></li>
+										<li><a href="https://www.sciencedirect.com/science/article/pii/S0167404820300341">Diesch, R., Pfaff, M., & Krcmar, H. (2020). A comprehensive model of information security factors for decision-makers. Computers and Security, 92.</a></li>
 									</div>
 								</div>
 							</section>
