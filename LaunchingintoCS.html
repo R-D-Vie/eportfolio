@@ -107,7 +107,7 @@
 									<div class="content">
 										<h2 class="major">Unit 3</h2>
 										<p>This week I used the ‘Learn with Google AI’ repository to explore a crash course in Machine Learning. I am interested in developing a sound understanding of this field and hope that it will also change the way I approach problems in future.</p>
-										<p>Key points include:</p>
+										<p>Key points include:<span id="dots">...</span><span id="more"></p>
 										<p>"ML systems learn how to combine input to produce useful predictions on never-before-seen data."</p>
 										<p></p>
 										<p>A Machine Learning model is trained by starting with an initial guess for the weights and bias and iteratively adjusting those guesses until learning the weights and bias with the lowest possible loss.</p>
@@ -121,8 +121,26 @@
 										<p>I also began to explore the concept of bias in Machine Learning models, and how this might be built in to a model, depending on the context and parameters of the problem. Also, there are different ways to measure the accuracy of a model and it is possible to engineer the accuracy of a model, depending on the objective or on the resources available.<p>
 										<p>Algorithms are increasingly being used to decide 'fair' outcomes. Is this ethical?</p>
 										<p>I found the following recommended article very interesting</p>
-										<li><a href="https://www.technologyreview.com/2019/10/17/75285/ai-fairer-than-judge-criminal-risk-assessment-algorithm/">Can you make AI fairer than a judge?</a></li>
-									
+										<li><a href="https://www.technologyreview.com/2019/10/17/75285/ai-fairer-than-judge-criminal-risk-assessment-algorithm/">Can you make AI fairer than a judge?</a></li></span></p>
+										<button onclick="myFunction()" id="myBtn">Read more</button>
+										
+										<script>
+										function myFunction() {
+										  var dots = document.getElementById("dots");
+										  var moreText = document.getElementById("more");
+										  var btnText = document.getElementById("myBtn");
+
+										  if (dots.style.display === "none") {
+										    dots.style.display = "inline";
+										    btnText.innerHTML = "Read more"; 
+										    moreText.style.display = "none";
+										  } else {
+										    dots.style.display = "none";
+										    btnText.innerHTML = "Read less"; 
+										    moreText.style.display = "inline";
+										  }
+										}
+										</script>
 									</div>	
 								</div>
 							</section>
