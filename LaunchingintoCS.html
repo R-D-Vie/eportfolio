@@ -164,8 +164,36 @@
 									<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
 									<div class="content">
 										<h2 class="major">Unit 5</h2>
-										<p>Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus.</p>
-										<a href="#" class="special">Learn more</a>
+										<p>In this unit we considered software, in terms of system software (e.g. operating systems) and application software. We were also introduced to the concept of ‘programming languages’ – Python, C++ etc. – and their different purposes as
+										Assembler, Compiler of Interpreter.<span id="dots">...</span><span id="more"></span></p>
+										<button onclick="myFunction()" id="myBtn">Read more</button>
+										<p></p>
+										<p>An operating system (OS) is the software controlling how a computer functions and operates, including storing and accessing files, executing programs and providing the necessary software to run certain applications.</p>
+										<p></p>
+										<p>Windows is probably the best-known operating system around. It was developed in the 80s and is widely used on PCs but is not active in the mobile OS sector, where Android and iOS are the most commonly used. Windows is so popular because it can run a huge range of software and most programs are compatible with it. It is also necessary to buy a user license to use Windows. Windows also has gained a reputation for crashing or having service outage.</p>
+										<p></p>
+										<p>Linux is a less commonly used OS and it is free of charge and open source, meaning that anyone can run or change the code to function differently for their use purpose. It is also supposed to be more stable and secure (i.e. less vulnerable to malicious attacks) than Windows. The user interface however is not as simple as windows is and some applications must be installed via the command line, which not everyone is familiar with.</p>
+										<p></p>
+										<p>We also looked briefly at the process of developing software, which is often conducted according to SCRUM methodology. SCRUM is intended to be a very lean approach to the development of new software and applications, because it takes an iterative approach – i.e. development is structured in sprints, which work on one small piece of a larger project and aim to get that right before moving on to the next. In this way, improvements are always being made to the software and the work done is reviewed and improved by all members of the team, who each have a special role in the process.</p>
+										
+										
+										<script>
+											function myFunction() {
+												var dots = document.getElementById("dots");
+												var moreText = document.getElementById("more");
+												var btnText = document.getElementById("myBtn");
+
+												if (dots.style.display === "none") {
+													dots.style.display = "inline";
+													btnText.innerHTML = "Read more";
+													moreText.style.display = "none";
+												} else {
+													dots.style.display = "none";
+													btnText.innerHTML = "Read less";
+													moreText.style.display = "inline";
+												}
+													}
+										</script>
 									</div>
 								</div>
 							</section>
