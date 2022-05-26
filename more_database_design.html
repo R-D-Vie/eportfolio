@@ -1,1 +1,130 @@
+<!DOCTYPE HTML>
+<!--
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Object Oriented Information Systems</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<h1><a href="more_database_design.html">Rachel Doherty</a></h1>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<div class="inner">
+							<h2>Menu</h2>
+							<ul class="links">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="AboutMe.html">About Me</a></li>
+								<li><a href="LaunchingintoCS.html">Launching into CS</a></li>
+								<li><a href="ObjectOrientedIS.html">Object-Oriented Information Systems</a></li>
+								<li><a href="SecureSWDevelopment.html">Secure Software Development</a></li>
+								<li><a href="Getintouch.html">Get In Touch</a></li>
+							</ul>
+							<a href="#" class="close">Close</a>
+						</div>
+					</nav>
+
+				<!-- Wrapper -->
+					<section id="wrapper">
+
+						<!-- One -->
+							<section id="one" class="wrapper spotlight style1">
+								<div class="inner">   
+									<div class="content">
+										<h2 class="major">Database Design</h2>
+										<p><strong>A database</strong> can be described as a colleciton of related data, designed in a certain way to suit the particular needs of an enerprise or organiation (Connolly & Begg, 2015). There is therefore inherently not 'one-fits-all' solution and a database must be designed with the particular organisation in mind and how the data should be represented and what relationships between data are necessary to highlight.</p>
+										<p>For this reason, organisations might be thought of in a similar way to classes within an object-oriented program design: each separate component or entity interacting within that system will also include its own people, activities, functions and methods.</p>
+										<p></p>
+										<p><strong>Relational Database Design</strong> ,according to Connolly and Beg (2015), is intended to group specific attributes of data in such a way that data is not rendered redundant. This means that each attribute of data should ideally be represented only once within any database design, in order to avaoid duplications (and therefore a risk of inconsistent data deletion, adaptation or update).</p>
+										<p>Separate data in a database or system will have some sort of dependency on another piece of data - this may be functional or transitive dependency. <strong>Functional dependency</strong> represents a constraint - i.e. one will not exist or will require updating if another is changed. <strong>Transistive dependency</strong> is when data is dependent on another piece of data via an intermediary piece of data.</p>
+                    <p><strong>Normalization</strong> is a technique employed to uncover the types of dependencies (funtional or transitive) between data. It involves indentifying the 'primary keys' within a set of data, those data on which other data are functionally dependent and then taking steps to rationalise the data set to remove non-necessary (partial or transitive) data dependencies </p>
+                    <p><strong>Unnormalised Form:</strong> is when a table of data contains data duplicates or repeating groups. <strong>First Normal Form</strong> is the process of removing partial data dependencies. <strong>Second Normal Form</strong> removes transitive dependencies so that a all non-primary data are fully dependent on the primary key. <strong>Second Normal Form</strong> goes one step further to remove transitive data dependencies.</p>
+                    <p></p>
+                    <h2 class="major">Entity Relationship Diagrams</h2>
+                    <p>An Entity Relationship (ER) Diagram is a way of visualising and achieving the normalisation of data within a system - it is a type of flowchart that illustrates how “entities” such as people, objects or concepts relate to each other, shown as separate tables of data. In terms of notation, it shares some similarities with UML, however it also has it's own special approach especially concerning how it identifies the 'Primary Keys' and 'Foreign Keys' (keys that are a 'primary key' in another data table) within a data set.</p>
+                    <p>Click here to see step one of my ER Diagram (a normalisation exercise) for a property lettings database, where I identify the individual data tables and the primary and foreign keys:</p> 
+										<p><a href="Normalisation in Practice_exercise.pdf">Normalisation Exercise</a></p>
+                    <p>Click here to see the final version of my ER Diagram for a property lettings database, which demonstrates more in detail the nature of the relationships between the data tables:</p> 
+										<p><a href="ER Diagram_Property Letting2.pdf">ER Diagram - Property Lettings</a></p>
+                    <p></p>
+										<p><strong>References:</strong></p>
+										<p></p>
+										<p>Connolly, T. & Beg, C. (2015) Database Systems: A Practical Approach to Design, Implementation, and Management. Global Edition. Edinburgh: Pearson. Chapters 12, 13 and 14.</p>
+										<p>Ambler, S. (2003) Elements of UML Style. Cambridge: Cambridge University Press</p>
+										<p>Lucidchart (2017) What is an Entity Relationship Diagram? <a href="https://www.lucidchart.com/pages/er-diagrams#:~:text=An%20Entity%20Relationship%20(ER)%20Diagram,each%20other%20within%20a%20system.">Available here</a></p>
+										<p></p>
+										<a href="ObjectOrientedIS.html" class="special">Back to module page</a>									
+									</div>
+								</div>
+							</section>
+            
+            <!-- Footer -->
+					<section id="footer">
+						<div class="inner">
+							<h2 class="major">Get in touch</h2>
+							<p>I'm open to your thoughts, feedback and any opportunities for collaboration.</p>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="email" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="4"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+							<ul class="contact">
+								<li class="icon solid fa-home">
+									Rachel Doherty<br />
+									Vienna, Austria<br />
+									
+								</li>
+								<li class="icon solid fa-phone">(0043) 670 5555153</li>
+								<li class="icon solid fa-envelope"><a href="#">rd21475@essex.ac.uk</a></li>
+								<li class="icon brands fa-facebook-f"><a href="#">facebook.com/rachel.doherty.5496</a></li>
+								<li class="icon brands fa-instagram"><a href="#">instagram.com/doherty3717</a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; Rachel Doherty. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
