@@ -1,0 +1,97 @@
+[
+    {
+        "client_msg_id": "bef47fff-61ed-4456-ac6d-126fab1f2716",
+        "type": "message",
+        "text": "Hi everyone,\n\nThank you for sharing your opinions. Reading through your posts as well as the reading material in Unit 5, it is quite apparent that there are some who support cyclomatic complexity and those who reject it. Those who support it claim it is a helpful metric when it comes to measuring linear independent paths through code, ultimately defining the complexity of code. Code with a lower cyclomatic complexity is easier to understand and less risky to modify (IBM, N.D.). However, at the same time, it also appears to be a controversial topic, with some academics shunning it for its supposed theoretical weaknesses (Ebert et al., 2016).\n\nOn the one hand, I agree with Brad's statement that knowing the cyclomatic complexity of one’s code can be valuable information, especially because it is relatively easy to calculate. Knowing how many tests a piece of code will require inadvertently has a positive impact on later development and reduces the time it takes to write test cases. Although it remains a controversial and heavily discussed topic among academics, cyclomatic complexity is still widely used in the industry for a reason (Ebert et al., 2016).\n\nOn the other hand, I also agree with Rachel’s points. Some people denounce the usage of McCabe’s cyclomatic complexity because, according to them, it relies on poor theoretical foundations, hence being an inadequate software development model. The debate about this metric began many years ago, something we can see in the journal article written by Martin Shepperd in 1988, where he critiques cyclomatic complexity and claims that it can be, in many cases, outperformed by “lines of code” (Shepperd, 1988).\n\nMany factors affect the complexity of code. Whether it is the amount of code written, how many decision points a piece of code has, how well the code has been documented, or how logically it has been structured - all of these aspects affect complexity. It may be true that cyclomatic complexity cannot definitively rate code complexity in all instances; however, I subscribe to the opinion that “the more data I have, the better”. The more information I can collect about my code and how to improve it, the better the result will be. Since McCabe’s cyclomatic complexity provides such information about code, I believe it still to be relevant today, although I would suggest to not overly relying on one metric alone.\n\n\n *References*\n\nIBM (N.D.) Cyclomatic complexity. Available from: <https:\/\/www.ibm.com\/docs\/en\/raa\/6.1?topic=metrics-cyclomatic-complexity> [Accessed 1st June 2023].\n\nEbert, C., Cain, J., Antoniol, G., Counsell, S. &amp; Laplante, P. (2016) Cyclomatic complexity. _IEEE Software_ 33(6): 27-29. Available from: <https:\/\/ieeexplore.ieee.org\/abstract\/document\/7725232\/authors#authors> [Accessed 1st June 2023].\nShepherd, M. (1988) A critique of cyclomatic complexity as a software metric. _Software Engineering Journal_ 3(2): 30-36. Available from: <https:\/\/digital-library.theiet.org\/content\/journals\/10.1049\/sej.1988.0003> [Accessed 1st June 2023].",
+        "user": "U056NSQ7B7E",
+        "ts": "1685620557.640489",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "xsi1H",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hi everyone,\n\nThank you for sharing your opinions. Reading through your posts as well as the reading material in Unit 5, it is quite apparent that there are some who support cyclomatic complexity and those who reject it. Those who support it claim it is a helpful metric when it comes to measuring linear independent paths through code, ultimately defining the complexity of code. Code with a lower cyclomatic complexity is easier to understand and less risky to modify (IBM, N.D.). However, at the same time, it also appears to be a controversial topic, with some academics shunning it for its supposed theoretical weaknesses (Ebert et al., 2016).\n\nOn the one hand, I agree with Brad's statement that knowing the cyclomatic complexity of one’s code can be valuable information, especially because it is relatively easy to calculate. Knowing how many tests a piece of code will require inadvertently has a positive impact on later development and reduces the time it takes to write test cases. Although it remains a controversial and heavily discussed topic among academics, cyclomatic complexity is still widely used in the industry for a reason (Ebert et al., 2016).\n\nOn the other hand, I also agree with Rachel’s points. Some people denounce the usage of McCabe’s cyclomatic complexity because, according to them, it relies on poor theoretical foundations, hence being an inadequate software development model. The debate about this metric began many years ago, something we can see in the journal article written by Martin Shepperd in 1988, where he critiques cyclomatic complexity and claims that it can be, in many cases, outperformed by “lines of code” (Shepperd, 1988).\n\nMany factors affect the complexity of code. Whether it is the amount of code written, how many decision points a piece of code has, how well the code has been documented, or how logically it has been structured - all of these aspects affect complexity. It may be true that cyclomatic complexity cannot definitively rate code complexity in all instances; however, I subscribe to the opinion that “the more data I have, the better”. The more information I can collect about my code and how to improve it, the better the result will be. Since McCabe’s cyclomatic complexity provides such information about code, I believe it still to be relevant today, although I would suggest to not overly relying on one metric alone.\n\n\n "
+                            },
+                            {
+                                "type": "text",
+                                "text": "References",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n\nIBM (N.D.) Cyclomatic complexity. Available from: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.ibm.com\/docs\/en\/raa\/6.1?topic=metrics-cyclomatic-complexity"
+                            },
+                            {
+                                "type": "text",
+                                "text": " [Accessed 1st June 2023].\n\nEbert, C., Cain, J., Antoniol, G., Counsell, S. & Laplante, P. (2016) Cyclomatic complexity. "
+                            },
+                            {
+                                "type": "text",
+                                "text": "IEEE Software",
+                                "style": {
+                                    "italic": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " 33(6): 27-29. Available from: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/ieeexplore.ieee.org\/abstract\/document\/7725232\/authors#authors"
+                            },
+                            {
+                                "type": "text",
+                                "text": " [Accessed 1st June 2023].\nShepherd, M. (1988) A critique of cyclomatic complexity as a software metric. "
+                            },
+                            {
+                                "type": "text",
+                                "text": "Software Engineering Journal",
+                                "style": {
+                                    "italic": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " 3(2): 30-36. Available from: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/digital-library.theiet.org\/content\/journals\/10.1049\/sej.1988.0003"
+                            },
+                            {
+                                "type": "text",
+                                "text": " [Accessed 1st June 2023]."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team": "T056NSMGWVA",
+        "user_team": "T056NSMGWVA",
+        "source_team": "T056NSMGWVA",
+        "user_profile": {
+            "avatar_hash": "g225b58542f0",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/225b58542f0bebf6ac9669640756a0f1.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0015-72.png",
+            "first_name": "Michael",
+            "real_name": "Michael Sammueller",
+            "display_name": "Michael Sammueller",
+            "team": "T056NSMGWVA",
+            "name": "mbsammueller",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        }
+    }
+]
