@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<!--
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Discussion: Microservices and Microkernels</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<h1><a href="Microservices">Rachel Doherty</a></h1>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<div class="inner">
+							<h2>Menu</h2>
+							<ul class="links">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="AboutMe.html">About Me</a></li>
+								<li><a href="LaunchingintoCS.html">Launching into CS</a></li>
+								<li><a href="ObjectOrientedIS.html">Object-Oriented Information Systems</a></li>
+								<li><a href="SecureSWDevelopment.html">Secure Software Development</a></li>
+								<li><a href="Getintouch.html">Get In Touch</a></li>
+							</ul>
+							<a href="#" class="close">Close</a>
+						</div>
+					</nav>
+
+				<!-- Wrapper -->
+					<section id="wrapper">
+
+						<!-- One -->
+							<section id="one" class="wrapper spotlight style1">
+								<div class="inner">   
+									<div class="content">
+										<h2 class="major">Discussion: Microservices and Microkernels</h2>
+                    <p><strong>“Torvalds has been proven wrong and it only took nearly thirty years. Microservices and microkernels are the future."</strong></p>
+										<p>In this post I begin with an admission: I did not read the entire debate between Torvalds, Tanenbaum et al, as I found it very difficult to follow, especially when more participants joined as well. I got about half-way through before skimming to the end, but I think the debate was largely focussed on the same topics.</p>
+										<p>To demonstrate my understanding, I would summarise the main conclusion as being that Linux’s monolithic kernel was criticised by Tanenbaum for its lack of reliability and out-datedness in terms of the development of computing whereas Torvald accepted that the microkernel approach was superior but claimed that Tanenbaum’s implementation in MINIX was subpar because it slowed down performance significantly and could not guarantee effective multi-tasking without using workarounds. I think I find both arguments compelling in that it is all well and good to claim that a system is superior, but if the alternative cannot be implemented well, it is also not a solution.</p>
+                    <p>If we look at the current computing landscape now, 30 years on, it is impossible to compare with the environment that Torvald and Tanenbaum were working in. As Liu et al., (2021) point out:</p>
+                    <p><i>“…the development of device drivers, protocol stacks, file systems and other low-level systems… caused monolithic kernels to change all the time and brought a serious burden to maintenance.”</i></p>
+                    <p>Also as Fritzsch et al. (2018) point out, with the development of cloud computing, business needs in terms of availability or services and technology, scaling, security and infrastructure management has caused a huge race to break legacy systems down and repurpose them as microservices which can be better managed in terms of user privileges and business continuity. Breaking down monolithic legacy systems into multiple services promotes flexibility and helps to manage isolated failures, but is a very complex process to which there is no one-size-fits-all approach (Fritzsch et al., 2018).</p>
+                    <p>Microkernel technology developed as a solution to support services in separate kernels for more flexible and reliable operation (Liu et al., 2021). This reflects an increasing shift toward distributed systems and modular architectures. A purely monolithic architecture also presents a key security risk in that it does not comply with the principle of least privilege (Liu et al., 2021; Ramos, 2022). However, I believe I have understood correctly when I say that the microservice approach can alleviate some of these issues, without necessarily requiring a microkernel infrastructure, which may also cause performance and implementation issues.</p>
+                    <p>To conclude, it seems to me that refactoring monolithic applications into microservices deployed via a distributed architecture might be a good way to solve some of the reliability and security issues which are inherent to monolithic architectures, as discussed by Fritzsch et al. (2018). In mainstream computing, operating system kernel architecture seems to be hybrid, with the microkernel only being utilised for some modules (Liu et al., 2021). This may be because issues of storage and performance are yet to be resolved in a purely microkernel operating system. I would therefore tentatively conclude that a microservice approach is a definite advantage in terms of improving security and flexibility, especially for business purposes, but purely microkernel OS architecture has a way to go before it can promise better performance than a hybrid approach.</p>
+                    <p></p>
+										<p><strong>References:</strong></p>
+										<p></p>
+										<p>DiBona, C. & Ockman, S. (1999) Open Sources. 1st ed. Sebastapol: O’Reilly Media, Inc.</p>
+										<p>Fritzsch J., Bogner J., Zimmermann A. & Wagner S. (2019) From Monolith to Microservices: A Classification of Refactoring Approaches. In: Bruel JM., Mazzara M., Meyer B. (eds) Software Engineering Aspects of Continuous Development and New Paradigms of Software Production and Deployment. DEVOPS 2018. Lecture Notes in Computer Science, vol 11350. Springer.</p>
+                    <p>Ramos, A. (2022) A short introduction to Fuchsia – Fuchsia OS. Available at: <a href="https://medium.com/@allansrc/a-short-introduction-to-fuchsia-fuchsiaos-8a3b5de2dbe0" target="_blank">https://medium.com/@allansrc/a-short-introduction-to-fuchsia-fuchsiaos-8a3b5de2dbe0</a> [accessed 17.07.2023].</p>
+                    <p>Liu, B., Wu, C. and Guo, H. (2021) "A Survey of Operating System Microkernel," 2021 International Conference on Intelligent Computing, Automation and Applications (ICAA), Nanjing, China, pp. 743-748, doi: 10.1109/ICAA53760.2021.00135.</p>
+               
+										<a href="SecureSWDevelopment.html" class="special">Back to module page</a>
+										
+										
+									</div>
+								</div>
+							</section>
+            
+            <!-- Footer -->
+					<section id="footer">
+						<div class="inner">
+							<h2 class="major">Get in touch</h2>
+							<p>I'm open to your thoughts, feedback and any opportunities for collaboration.</p>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="email" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="4"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+							<ul class="contact">
+								<li class="icon solid fa-home">
+									Rachel Doherty<br />
+									Vienna, Austria<br />
+									
+								</li>
+								<li class="icon solid fa-phone">(0043) 670 5555153</li>
+								<li class="icon solid fa-envelope"><a href="#">rd21475@essex.ac.uk</a></li>
+								<li class="icon brands fa-facebook-f"><a href="#">facebook.com/rachel.doherty.5496</a></li>
+								<li class="icon brands fa-instagram"><a href="#">instagram.com/doherty3717</a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; Rachel Doherty. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
