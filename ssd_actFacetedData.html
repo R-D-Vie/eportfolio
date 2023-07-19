@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<!--
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Faceted Data</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<h1><a href="FacetedData.html">Rachel Doherty</a></h1>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<div class="inner">
+							<h2>Menu</h2>
+							<ul class="links">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="AboutMe.html">About Me</a></li>
+								<li><a href="LaunchingintoCS.html">Launching into CS</a></li>
+								<li><a href="ObjectOrientedIS.html">Object-Oriented Information Systems</a></li>
+								<li><a href="SecureSWDevelopment.html">Secure Software Development</a></li>
+								<li><a href="Getintouch.html">Get In Touch</a></li>
+							</ul>
+							<a href="#" class="close">Close</a>
+						</div>
+					</nav>
+
+				<!-- Wrapper -->
+					<section id="wrapper">
+
+						<!-- One -->
+							<section id="one" class="wrapper spotlight style1">
+								<div class="inner">   
+									<div class="content">
+										<h2 class="major">Formative Activity: Faceted Data</h2>
+										<p>Schmitz et al (2016) explain that the use of faceted values can enhance the security of information flow within a system by ensuring that the data concerned is subject to different behaviours according to the privileges that a user or a system channel might have (i.e. dynamically). They indicate that this is a way to build security into the design of a program, rather than implement it as an afterthought following an attack and also to not write it statically into program parameters. The authors refer to “secure multi-execution”, which works by protecting sensitive information from being written to public channels and vice versa, which effectively ensures that the processes do not interfere with each other.</p>
+                   	<p>Schmitz et al. (2016) explain that “Most information flow mechanisms fall into one of three categories: run-time monitors that prevent a program execution from misbehaving; static analysis techniques that analyze the whole program and reject programs that might leak sensitive information; and finally secure multi-execution, which protects sensitive information by evaluating the same program multiple times.” This is a fantastic explanation of what makes faceted information flow different. </p>
+                    <p>In the context of this course, this approach seems to be ideal for enforcing role-based access control (RBAC) in a dynamic way to control what people can see without risking leaking sensitive data. It also facilitates ‘policy-agnostic programming’ which frees developers from the burden implementing complex logic in order to enforce privacy policies, and instead allows them to achieve this dynamically through applying pre-defined security ‘labels’ to sensitive data within the program itself (Mickinski et al., 2020). This is achieved through dynamically ‘labeling’ output according to continuous evaluation of values generated through program execution and is through the subsequent application of specific semantic parameters.</p>
+                    <p>My further research has led me to identify that the main con of using a dynamic and faceted approach to the flow of information in a program is that it is complex and that it causes higher performance overhead than a static approach would (Mickinski et al., 2020). This is because information flow is analysed at runtime in a dynamic way. Other cons are that the ongoing faceted evaluation of information flows may also delay the discovery of possible policy violations (Mickinski et al., 2020). It is also not very commonly adopted, which means that developers in general are not familiar with the techniques involved.</p>
+                    <p>Pros of a faceted approach to information flow include increased and more dynamic control over the flow of information (i.e. violations or vulnerabilities are not patched after an event has occurred) and that security requirements can be implemented in a more dynamic way, without having to statically enhance or extend roles or role-permissions for example.</p>
+                    <p><strong>References:</strong></p>
+										<p>Micinski, K., Darais, D., and Gilray, T. (2020) “Abstracting Faceted Execution.” 2020 IEEE 33rd Computer Security Foundations Symposium (CSF), Boston, MA, USA, 2020, pp. 184-198, doi: 10.1109/CSF49147.2020.00021.</p>
+                    <p>Schmitz, T., Rhodes, D., Austin, T.H., Knowles, K., Flanagan, C. (2016). Faceted Dynamic Information Flow via Control and Data Monads. In: Piessens, F., Viganò, L. (eds) Principles of Security and Trust. POST 2016. Lecture Notes in Computer Science(), vol 9635. Springer, Berlin, Heidelberg. https://doi.org/10.1007/978-3-662-49635-0_1</p>				
+               
+										<a href="SecureSWDevelopment.html" class="special">Back to module page</a>
+										
+										
+									</div>
+								</div>
+							</section>
+            
+            <!-- Footer -->
+					<section id="footer">
+						<div class="inner">
+							<h2 class="major">Get in touch</h2>
+							<p>I'm open to your thoughts, feedback and any opportunities for collaboration.</p>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="email" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="4"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+							<ul class="contact">
+								<li class="icon solid fa-home">
+									Rachel Doherty<br />
+									Vienna, Austria<br />
+									
+								</li>
+								<li class="icon solid fa-phone">(0043) 670 5555153</li>
+								<li class="icon solid fa-envelope"><a href="#">rd21475@essex.ac.uk</a></li>
+								<li class="icon brands fa-facebook-f"><a href="#">facebook.com/rachel.doherty.5496</a></li>
+								<li class="icon brands fa-instagram"><a href="#">instagram.com/doherty3717</a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; Rachel Doherty. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

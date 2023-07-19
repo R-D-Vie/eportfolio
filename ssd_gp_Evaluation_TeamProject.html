@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<!--
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Team Project Evaluation</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<h1><a href="Evaluation_TeamProject.html">Rachel Doherty</a></h1>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<div class="inner">
+							<h2>Menu</h2>
+							<ul class="links">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="AboutMe.html">About Me</a></li>
+								<li><a href="LaunchingintoCS.html">Launching into CS</a></li>
+								<li><a href="ObjectOrientedIS.html">Object-Oriented Information Systems</a></li>
+								<li><a href="SecureSWDevelopment.html">Secure Software Development</a></li>
+								<li><a href="Getintouch.html">Get In Touch</a></li>
+							</ul>
+							<a href="#" class="close">Close</a>
+						</div>
+					</nav>
+
+				<!-- Wrapper -->
+					<section id="wrapper">
+
+						<!-- One -->
+							<section id="one" class="wrapper spotlight style1">
+								<div class="inner">
+									<a href="#" class="image"><img src="images/Object oriented IS.jpg" alt="" /></a>   
+									<div class="content">
+										<h2 class="major">Evaluation of the final project vs. the design proposal</h2>
+										<p>I was part of the team ‘SecureSpace’ (Team 3) and we designed an in-mission healthcare monitoring application for astronauts on board the International Space Station (ISS) in order to support the crew in monitoring their health on a continuous basis to avoid a situation which may cause premature abandonment of a mission due to crew ill-health.</p>
+										<p>As a team, we took a very thorough approach at the design stage, which meant that by week 6 we had already got a UML class diagram and an Enhanced Entity-Relationship (EER) model for the database design in place. This was immensely helpful in distributing and starting on the coding tasks, as we roughly knew already how the different parts of the system would interact with each other. We agreed to make the system as modular as possible, and divided all of the system functionality into its own encapsulated units. We referred to this as a ‘microservice’ approach, which was criticised in the code demonstration in week 11 by the moderator as our system did not support the exchange of messages or protocols between modules. Despite the fact that our terminology might not have been entirely accurate, the intention to build each module as a ‘service’ which would link the various system functions without unnecessary overlap was in line with microservice ideology and intended to facilitate secure and contained scalability into the program.</p>
+										<p>One omission we did intentionally make (which was picked up on during the code demonstration) was our decision not to encrypt the entire database, despite that fact that this is recommended by OWASP as an essential security measure within the remit of the 2017 Top 10 Application Security Risks under the section “A3:2017 Sensitive Data Exposure”. However, as a team we decided that within the domain and the functional environment of the system we delivered, this step did not bring value. This is because the application was designed to be deployed on a standalone terminal onboard the ISS, and did not require onboard internet network connectivity. As we note in the README “If superadmin access details were leaked, there would be no way to access the database without access to the onboard terminal which is located in space, onboard the ISS.” </p>
+										<p>The only other change we made to the application design was in the function of the “Common Actions”, which we originally intended would handle all functions and methods related to user actions. However in the final implementation, we renamed this class to ‘ActionController’ in a way that it would act as an interface between the Command Line Interface and the system objects by calling those object’s methods to facilitate system actions.</p>
+										<p>Other minor changes included updating the planned role permissions to better-suit system functionality and mapping permissions to the user actions directly. We also specified the format for record download as .txt.</p>
+										<p></p>
+										<p><a href="" target="_blank">Find a link to the Design Document here.</a></p>
+										<p><a href="https://github.com/michaelsammueller/secure-software-development" target="_blank">Find a link to our project github repository here.</a></p>
+										
+										<a href="ObjectOrientedIS.html" class="special">Back to module page</a>
+										
+										
+									</div>
+								</div>
+							</section>
+            
+            <!-- Footer -->
+					<section id="footer">
+						<div class="inner">
+							<h2 class="major">Get in touch</h2>
+							<p>I'm open to your thoughts, feedback and any opportunities for collaboration.</p>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="email" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="4"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+							<ul class="contact">
+								<li class="icon solid fa-home">
+									Rachel Doherty<br />
+									Vienna, Austria<br />
+									
+								</li>
+								<li class="icon solid fa-phone">(0043) 670 5555153</li>
+								<li class="icon solid fa-envelope"><a href="#">rd21475@essex.ac.uk</a></li>
+								<li class="icon brands fa-facebook-f"><a href="#">facebook.com/rachel.doherty.5496</a></li>
+								<li class="icon brands fa-instagram"><a href="#">instagram.com/doherty3717</a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; Rachel Doherty. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

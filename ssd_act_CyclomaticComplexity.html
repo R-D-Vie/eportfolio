@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<!--
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Summary Post Group Discussion OWASP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<h1><a href="CyclomaticComplexity.html">Rachel Doherty</a></h1>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<div class="inner">
+							<h2>Menu</h2>
+							<ul class="links">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="AboutMe.html">About Me</a></li>
+								<li><a href="LaunchingintoCS.html">Launching into CS</a></li>
+								<li><a href="ObjectOrientedIS.html">Object-Oriented Information Systems</a></li>
+								<li><a href="SecureSWDevelopment.html">Secure Software Development</a></li>
+								<li><a href="Getintouch.html">Get In Touch</a></li>
+							</ul>
+							<a href="#" class="close">Close</a>
+						</div>
+					</nav>
+
+				<!-- Wrapper -->
+					<section id="wrapper">
+
+						<!-- One -->
+							<section id="one" class="wrapper spotlight style1">
+								<div class="inner">   
+									<div class="content">
+										<h2 class="major">Exploring the Cyclomatic Complexity’s Relevance Today</h2>
+										<p>It appears to me that cyclomatic complexity is a simplistic approach to assessing code complexity. This occurred to me in particular after having read the chapter on Debugging by Pillai (2017), which demonstrates that quite often there may be multiple points in any block of code which may represent a decision point and where a program gets stuck. It seems unhelpful just to count the decision points without considering the wider context and nested relationships within the code and the different parts of the program.</p>
+                   	<p>I think it is also a concerning technique due to its subjectivity and that it may be interpreted by different practitioners in different ways, thus arriving at a different level of complexity (Shepperd, 1988). To me this makes it very clear that the complexity in code comes more from its comprehensibility rather than it cyclomatic complexity. The better structured and commented a piece of code, the better it can be understood and systematically tested using for example a unit-testing approach or stepwise debugging techniques (such as using Print statements, Continue statements or logging) (Pillai, 2017).</p>
+                    <p>In terms of developing secure software, I also think it may be problematic. This is due to the fact that it encourages a ‘race to the bottom’ in terms of minimising the complexity score (Shepperd, 1988). Whilst I understand that approaches like the MC/DC method may require more analytic skill and be more time intensive, I think this approach may bring great benefits in terms of the likelihood of producing well-structured and well-functioning code which is effectively covered by all necessary test cases.</p>
+                		<h2 class="major">Team Discussion</h2>
+                    <p>Brad agreed that my points on code comprehensibility were valid, but mentioned that cyclomatic complexity brings great vaue in terms of measuring how many tests it takes to ensure reliability of code and this is useful for developers to know.</p>
+                    <p>Michael commented that he believes a mixed approach is valuable, and the more information that can be gathered about the complexity of code, the better the chances of improving it.</p>
+                    <p>Both team members saw value in McCabe's theory but saw that it had its weaknesses. This helped me to see that both measuring complexity usuing a socring system and using proper documentation and commentary is useful and that Cyclomatic Complexity has great benefits in terms of guiding potential test paths.</p>
+										<p><a href="2023-06-01.json">This link is a JSON export of Team discussion held via slack, as evidence.</a></p>
+                    <p></p>
+                     <p><strong>References (for my discussion contribution):</strong></p>
+										<p></p>
+										<pShepperd, M. (1988) A Critique of Cyclomatic Complexity as a Software Metric, Software Engineering Journal.</p>
+										<p>Pillai, A. B (2017). Software Architecture with Python. Birmingham, UK. Packt Publishing Ltd.</p>
+										
+               
+										<a href="SecureSWDevelopment.html" class="special">Back to module page</a>
+										
+										
+									</div>
+								</div>
+							</section>
+            
+            <!-- Footer -->
+					<section id="footer">
+						<div class="inner">
+							<h2 class="major">Get in touch</h2>
+							<p>I'm open to your thoughts, feedback and any opportunities for collaboration.</p>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="email" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="4"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+							<ul class="contact">
+								<li class="icon solid fa-home">
+									Rachel Doherty<br />
+									Vienna, Austria<br />
+									
+								</li>
+								<li class="icon solid fa-phone">(0043) 670 5555153</li>
+								<li class="icon solid fa-envelope"><a href="#">rd21475@essex.ac.uk</a></li>
+								<li class="icon brands fa-facebook-f"><a href="#">facebook.com/rachel.doherty.5496</a></li>
+								<li class="icon brands fa-instagram"><a href="#">instagram.com/doherty3717</a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; Rachel Doherty. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

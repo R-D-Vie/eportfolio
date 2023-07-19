@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<!--
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Summary Post Group Discussion OWASP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<h1><a href="SummaryOWASPInjection.html">Rachel Doherty</a></h1>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<div class="inner">
+							<h2>Menu</h2>
+							<ul class="links">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="AboutMe.html">About Me</a></li>
+								<li><a href="LaunchingintoCS.html">Launching into CS</a></li>
+								<li><a href="ObjectOrientedIS.html">Object-Oriented Information Systems</a></li>
+								<li><a href="SecureSWDevelopment.html">Secure Software Development</a></li>
+								<li><a href="Getintouch.html">Get In Touch</a></li>
+							</ul>
+							<a href="#" class="close">Close</a>
+						</div>
+					</nav>
+
+				<!-- Wrapper -->
+					<section id="wrapper">
+
+						<!-- One -->
+							<section id="one" class="wrapper spotlight style1">
+								<div class="inner">   
+									<div class="content">
+										<h2 class="major">Summary Post for Group Discussion: OWASP Top 10 (Injection Attacks)</h2>
+										<p>It appears that injection errors are a consistent problem in programming, extremely widespread and that no mainstream language provides a safe way to handle them (Cifuentes & Bierman, 2019). It is then down to the skill of the developer to be aware of good programming practices to avoid SQL injection, in particular. My original post was focused on SQL Injection and I will continue to summarise what I have discovered about the topic, focussing on possible solutions.</p>
+                   	<p>Validation controls can be a solution to ca. 90% of injection attacks, if implemented correctly (OWASP, 2019). Benita (n.d.) explains for example that any time there is user input entered as a database query there is a risk of SQL injection vulnerability, and one way to protect against this for strings is by escaping the value by using quotation marks. The same author also notes that, especially for Python, it is commonplace today to use database adapters which usually come with tools for preventing SQL injection by using query parameters instead of plain string interpolation (Benita, n.d.). In fact, Pillai (2017) also notes that in Python, %s interpolation should be avoided in favour of template strings in order to improve the security of the language. OWASP (2019) further recommends that, to protect against (SQL) injection vulnerability, input data should at the very least be sanitized or filtered and the range or length checked and that output data should be escaped or encoded as close as possible to the interpreter.</p>
+                    <p>My colleague Tomas pointed out that Object Relational Mapping can be used as a technique to conceal SQL statements within queries and that using frameworks such as this and libraries can help developers to implement validation controls and ensure that valid data is being stored in the database. He also pointed out that it is vital that developers respect the framework standards in order for this to be a valid solution. In fact, OWASP (n.d.) supports this assertion, saying that ORM generated objects can also be vulnerable to SQL Injection attacks if the methods implemented take unsanitized input parameters. I therefore wholeheartedly agree with Tomas’s suggestion that such protection methods can only be successful if developers know how to use them and respect their standards, rather than relying largely on their own experience. I would also like to briefly point out the issue of cognitive load when using external libraries and frameworks, as discussed by Cifuentes & Bierman (2019). Unless developers are familiar with these frameworks, there is a risk that this could affect their ability to implement it which in turn has an effect on cost and duration of software development projects.</p>
+										<p>In summary, it appears that the only valid way to really protect against SQL injection attacks is to use external libraries, frameworks or database adapters, but that the successful implementation of these relies heavily on the developer themselves. There is therefore a fundamental need to ensure developers with specific skills are hired or developers are thoroughly trained during a software project requirements gathering and design phase.</p>
+										<p></p>
+										<p><a href="https://www.my-course.co.uk/mod/forum/discuss.php?d=161211#p249082">Here is a link to the original post in the group forum</a>, for the benefit of my tutor/ those who have access to the course page.</p>
+                    <p></p>
+										<p><strong>References:</strong></p>
+										<p></p>
+										<p>Benita, H (n.d.) Preventing SQL Injection Attacks With Python. Available from: <a href="https://www.iso.org/obp/ui/#iso:std:iso-iec:27000:ed-5:v1:en:sec:3."></a> [Accessed 10 May, 2023].</p>
+										<p>Cifuentes, C. & Bierman, G. (2019) ‘What is a Secure Programming Language?’, <em>Summit on Advances in Programming Languages</em>. 3:1-3:15.</p>
+                    <p>OWASP (2019) application Security Verification Standard 4.0.3. The OWASP Foundation.</p>
+										<p>OWASP (n.d.) WSTG – Latest: Testing for ORM Injection. Available from: <a href=": https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/07-Input_Validation_Testing/05.7-Testing_for_ORM_Injection"</a> [accessed 22 May 2023].</p>
+										<p>Pillai A. B. (2017) Software Architecture with Python (Chapter 6). Packt Publishing.</p>
+               
+										<a href="SecureSWDevelopment.html" class="special">Back to module page</a>
+										
+										
+									</div>
+								</div>
+							</section>
+            
+            <!-- Footer -->
+					<section id="footer">
+						<div class="inner">
+							<h2 class="major">Get in touch</h2>
+							<p>I'm open to your thoughts, feedback and any opportunities for collaboration.</p>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="email" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="4"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+							<ul class="contact">
+								<li class="icon solid fa-home">
+									Rachel Doherty<br />
+									Vienna, Austria<br />
+									
+								</li>
+								<li class="icon solid fa-phone">(0043) 670 5555153</li>
+								<li class="icon solid fa-envelope"><a href="#">rd21475@essex.ac.uk</a></li>
+								<li class="icon brands fa-facebook-f"><a href="#">facebook.com/rachel.doherty.5496</a></li>
+								<li class="icon brands fa-instagram"><a href="#">instagram.com/doherty3717</a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; Rachel Doherty. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
