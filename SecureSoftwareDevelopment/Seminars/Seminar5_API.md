@@ -89,7 +89,7 @@ app.run(debug=True)
 
 This is the output:
 
-<img src="Picture1.png">
+<img src="SecureSoftwareDevelopment/Seminars/Screenshots/FlaskRun.png">
 
 Not being familiar with Flask, I learned that running the by calling 'flask run' would start the program with the debugger off for security reasons. This could be fixed by settint the `FLASK_APP` variable to my file name "api.py" and running the app in debug mode:
 
