@@ -93,7 +93,7 @@ This is the output:
 
 Not being familiar with Flask, I learned that running the by calling 'flask run' would start the program with the debugger off for security reasons. This could be fixed by settint the `FLASK_APP` variable to my file name "api.py" and running the app in debug mode:
 
-<img src="SecureSoftwareDevelopment/Seminars/Screenshots/FlaskRun2.png"">
+<img src="SecureSoftwareDevelopment/Seminars/Screenshots/FlaskRun2.png">
 
 Running the app in debug mode using app.run(debug=True), enables debugging features and provides more detailed error messages during development.
 
@@ -103,7 +103,7 @@ Running these commands: `w3m http://127.0.0.1:5000/user/Ann` and `w3m http://127
 
 In VSCode, I also experimented with the `post` method to add a user to the dictionary:
 
-<img src="SecureSoftwareDevelopment/Seminars/Screenshots/FlaskRun3.png"">
+<img src="SecureSoftwareDevelopment/Seminars/Screenshots/FlaskRun3.png">
 
 #### What is the capability achieved by the flask library?
 
